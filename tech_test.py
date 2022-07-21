@@ -28,5 +28,6 @@ def convert_bead_to_numbers():
     return item_list
 
 
+
 print(convert_numbers_to_bead([5, 4, 0]))
 print(convert_bead_to_numbers())
