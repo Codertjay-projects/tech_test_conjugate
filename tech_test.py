@@ -11,8 +11,9 @@ def convert_numbers_to_bead(positive_integers: list):
             item = int(item)
         except:
             pass
-        finally:
-            if isinstance(item, int):
+        
+        if isinstance(item, int):
+            if item > 0:
                 beads += "o" * item + "\n"
     return beads
 
